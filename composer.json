@@ -1,0 +1,16 @@
+{
+  "name": "deg/sibling_nav",
+  "type": "magento-module",
+  "description": "Display Category Siblings Instead of Children in Layered Navigation",
+  "require": {
+    "magento-hackathon/magento-composer-installer":"*"
+  },
+  "extra":{
+    "map":[
+      ["app/code/local/DEG/SiblingNav", "app/code/local/DEG/SiblingNav"],
+      ["app/design/frontend/base/default/layout/DEG_SiblingNav.xml", "app/design/frontend/base/default/layout/DEG_SiblingNav.xml"],
+      ["app/design/frontend/base/default/template/siblingnav/navigation/left.phtml", "app/design/frontend/base/default/template/siblingnav/navigation/left.phtml"],
+      ["app/etc/modules/DEG_SiblingNav.xml", "app/etc/modules/DEG_SiblingNav.xml"]
+    ]
+  }
+}

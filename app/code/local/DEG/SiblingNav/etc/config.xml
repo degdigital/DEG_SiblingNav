@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <DEG_SiblingNav>
+            <version>0.1.0</version>
+        </DEG_SiblingNav>
+    </modules>
+    <global>
+        <blocks>
+            <DEG_SiblingNav>
+                <class>DEG_SiblingNav_Block</class>
+            </DEG_SiblingNav>
+        </blocks>
+        <resources>
+            <DEG_SiblingNav>
+                <setup>
+                    <module>DEG_SiblingNav</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+            </DEG_SiblingNav>
+        </resources>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <DEG_SiblingNav>
+                    <file>DEG_SiblingNav.xml</file>
+                </DEG_SiblingNav>
+            </updates>
+        </layout>
+    </frontend>
+</config>
